@@ -24,12 +24,10 @@ body{
     margin: 10px;
     position: relative;
 }
-/* 
+
 .ujung{
     position: relative;
-    background: bisque;
-    
-} */
+}
 
 .nm-mn{
     float: right;
@@ -39,8 +37,10 @@ body{
     padding: 5px;
     text-align: center;
     width: 50%;
-    position: relative;
-    transform: translateX(5px) translateY(-5px);
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* transform: translateX(5px) translateY(-5px); */
     /* transform: translateY(-5px); */
 }
 
